@@ -1,0 +1,33 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### Minimal -SHORT ### //
+
+{
+"include": [
+  "$HOME/.config/waybar/Modules",
+  "$HOME/.config/waybar/ModulesWorkspaces",
+  "$HOME/.config/waybar/ModulesCustom",
+  "$HOME/.config/waybar/ModulesGroups",
+  "$HOME/.config/waybar/UserModules",
+  ],
+"layer": "top",
+"exclusive": false,
+"position": "top",
+"width": 500,
+"margin-top": 3,
+
+"modules-left": [
+	"custom/playerctl",
+	],
+
+"modules-center": [
+	"clock",
+	"group/notify",
+	],
+
+"modules-right": [
+	"network", 
+	"bluetooth", 
+	"battery",
+	],
+}

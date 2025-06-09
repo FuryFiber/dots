@@ -1,0 +1,24 @@
+* {
+    background: rgba(30, 30, 30, 0.95);
+    /*border: 2px solid #5c5c5c;*/
+    border-radius: 10px;
+    font: "Sans 16";
+    text-color: #ffffff;
+    selected-normal-background: rgba(100, 100, 100, 0.4);
+    selected-normal-foreground: #ffffff;
+}
+
+window {
+    width: 300px;
+    location: northeast;  // or center, or any position you want
+    anchor: northeast;
+    y-offset: 40;
+    x-offset: -10;
+}
+
+listview {
+    spacing: 8px;
+    lines: 5;
+    fixed-height: true;
+}
+
